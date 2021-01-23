@@ -170,8 +170,6 @@ img{
     height: 150px;
 }
 
-
-
 /* ? Signals */
 
 .fso-article{
@@ -223,3 +221,534 @@ img{
     width: 540px;
     margin-bottom: 50px ;
 }
+
+/* ? Responsive */
+
+/* ? Agimat */
+@media screen and (max-width:480px){
+    
+    body{
+        font-size: 15px;
+    }
+
+    .header{
+        height: 50px;
+    }
+    
+    .menu{
+        max-width: 100%;
+        height: 50px;
+    }
+
+    .nav{
+        display: flex;
+        height: 50px;
+    }
+
+    .nav img{
+        margin: 0;
+        width: 80px;
+        height: 40px;
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+    
+    .nav-list{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav ul li{
+        padding: 0;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-right: 30px;
+    }
+
+    .Agimat-section__title{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .Agimat-article__paragraph{
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .Agimat-article__list{
+        margin: 5px;
+        padding: 0;
+        padding-left: 12px;
+    }
+
+    .Agimat-article-list__item{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .Agimat-article__FX2018{
+        height: 490px;
+    }
+    .Agimat-FX2018__paragraph,
+    .Agimat-FX2018__title,
+    .Agimat-FXPro__title,
+    .Agimat-container__FXUltra{
+        margin: 0;
+    }
+
+    .Agimat-FX2018__title{
+        margin-top: 10px;
+    }
+
+    .Agimat-FX2018__image{
+        height: 160px;
+        padding-top: 10px;
+    }
+
+    .Agimat-FX2018-container__paragraph{
+        padding: 0;
+        height: 210px;
+    }
+
+    .Agimat-FXPro-container__title{
+        height: 50px;
+    }
+
+    .Agimat-FXPro__span{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 0px;
+    }
+
+    .Agimat-article__FXUltra{
+        display: block;
+    }
+
+    .Agimat-FXUltra-container__description{
+        width: 100%;
+    }
+
+    .Agimat-FXUltra__list{
+        padding: 0;
+        margin: 0;
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+
+    .Agimat-FXUltra__subtitle{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .Agimat-FXUltra__image{
+        width: 280px;
+        margin-bottom: 15px;
+    }
+
+    .footer-container{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width:420px){
+    
+    body{
+        font-size: 15px;
+    }
+
+    .header{
+        height: 50px;
+    }
+    
+    .menu{
+        max-width: 100%;
+        height: 50px;
+    }
+
+    .nav{
+        display: flex;
+        height: 50px;
+    }
+
+    .nav img{
+        margin: 0;
+        width: 80px;
+        height: 40px;
+        padding-top: 15px;
+        padding-left: 30px;
+    }
+    
+    .nav-list{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav ul li{
+        padding: 0;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-right: 40px;
+    }
+
+    .Agimat-section__title{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .Agimat-article__paragraph{
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .Agimat-article__list{
+        margin: 5px;
+        padding: 0;
+        padding-left: 12px;
+    }
+
+    .Agimat-article-list__item{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .Agimat-article__FX2018{
+        height: 470px;
+    }
+    .Agimat-FX2018__paragraph,
+    .Agimat-FX2018__title,
+    .Agimat-FXPro__title,
+    .Agimat-container__FXUltra{
+        margin: 0;
+    }
+
+    .Agimat-FX2018-container__title{
+        height: 80px;
+        margin-bottom: 10px;
+    }
+    .Agimat-FX2018__title{
+        margin-top: 10px;
+    }
+
+    .Agimat-FX2018__image{
+        height: 180px;
+    }
+
+    .Agimat-FX2018-container__paragraph{
+        padding: 0;
+        height: 200px;
+        margin-top: 20px;
+    }
+    
+    .Agimat-FX2018__paragraph{
+        height: 200px;
+    }
+
+    .Agimat-FXPro-container__title{
+        padding-top: 10px;
+        height: 40px;
+    }
+    
+    .Agimat-FXPro__title{
+        margin-top: 10px;
+    }
+
+    .Agimat-FXPro__span{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 0px;
+    }
+
+    .Agimat-article__FXUltra{
+        display: block;
+    }
+
+    .Agimat-FXUltra-container__description{
+        width: 100%;
+    }
+
+    .Agimat-FXUltra__list{
+        padding: 0;
+        margin: 0;
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+
+    .Agimat-FXUltra__subtitle{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .Agimat-FXUltra__image{
+        width: 280px;
+        margin-bottom: 15px;
+    }
+
+    .footer-container{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width:360px){
+
+    body{
+        font-size: 15px;
+    }
+
+    .header{
+        height: 50px;
+    }
+    
+    .menu{
+        max-width: 100%;
+        height: 50px;
+    }
+
+    .nav{
+        display: flex;
+        height: 50px;
+    }
+
+    .nav img{
+        margin: 0;
+        width: 80px;
+        height: 40px;
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+    
+    .nav-list{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav ul li{
+        padding: 0;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-right: 30px;
+    }
+
+    .Agimat-section__title{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .Agimat-article__paragraph{
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .Agimat-article__list{
+        margin: 5px;
+        padding: 0;
+        padding-left: 12px;
+    }
+
+    .Agimat-article-list__item{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .Agimat-article__FX2018{
+        height: 490px;
+    }
+    .Agimat-FX2018__paragraph,
+    .Agimat-FX2018__title,
+    .Agimat-FXPro__title,
+    .Agimat-container__FXUltra{
+        margin: 0;
+    }
+
+    .Agimat-FX2018__title{
+        margin-top: 10px;
+    }
+
+    .Agimat-FX2018__image{
+        height: 160px;
+        padding-top: 10px;
+    }
+
+    .Agimat-FX2018-container__paragraph{
+        padding: 0;
+        height: 210px;
+    }
+
+    .Agimat-FXPro-container__title{
+        height: 50px;
+    }
+
+    .Agimat-FXPro__span{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 0px;
+    }
+
+    .Agimat-article__FXUltra{
+        display: block;
+    }
+
+    .Agimat-FXUltra-container__description{
+        width: 100%;
+    }
+
+    .Agimat-FXUltra__list{
+        padding: 0;
+        margin: 0;
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+
+    .Agimat-FXUltra__subtitle{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .Agimat-FXUltra__image{
+        width: 280px;
+        margin-bottom: 15px;
+    }
+
+    .footer-container{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width:320px){
+
+    body{
+        font-size: 15px;
+    }
+
+    .header{
+        height: 50px;
+    }
+    
+    .menu{
+        max-width: 100%;
+        height: 50px;
+    }
+
+    .nav{
+        display: flex;
+        height: 50px;
+    }
+
+    .nav img{
+        margin: 0;
+        width: 80px;
+        height: 40px;
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+    
+    .nav-list{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav ul li{
+        padding: 0;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-right: 30px;
+    }
+
+    .Agimat-section__title{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .Agimat-article__paragraph{
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .Agimat-article__list{
+        margin: 5px;
+        padding: 0;
+        padding-left: 12px;
+    }
+
+    .Agimat-article-list__item{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .Agimat-article__FX2018,
+    .Agimat-container__FX2018{
+        height: 530px;
+    }
+    .Agimat-FX2018__paragraph,
+    .Agimat-FX2018__title,
+    .Agimat-FXPro__title,
+    .Agimat-container__FXUltra{
+        margin: 0;
+    }
+
+    .Agimat-FX2018__title{
+        margin-top: 10px;
+    }
+    
+    .Agimat-FX2018__image{
+        height: 160px;
+        margin-top: 40px;
+        padding-top: 10px;
+    }
+
+    .Agimat-FX2018-container__paragraph{
+        padding: 0;
+        height: 210px;
+    }
+
+    .Agimat-FXPro-container__title{
+        height: 50px;
+    }
+
+    .Agimat-FXPro__span{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 0px;
+    }
+
+    .Agimat-article__FXUltra{
+        display: block;
+    }
+
+    .Agimat-FXUltra-container__description{
+        width: 100%;
+    }
+
+    .Agimat-FXUltra__list{
+        padding: 0;
+        margin: 0;
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+
+    .Agimat-FXUltra__subtitle{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .Agimat-FXUltra__image{
+        width: 280px;
+        margin-bottom: 15px;
+    }
+
+    .footer-container{
+        height: 70px;
+    }
+}
+
+
+
+
+
