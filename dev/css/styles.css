@@ -225,8 +225,8 @@ img{
 /* ? Responsive */
 
 /* ? Agimat */
-@media screen and (max-width:320px){
 
+@media screen and (max-width:768px){
     body{
         font-size: 15px;
     }
@@ -249,429 +249,22 @@ img{
         margin: 0;
         width: 80px;
         height: 100%;
+        padding: 0;
         padding-top: 15px;
-        padding-left: 20px;
+        margin-left: 80px;
     }
     
     .nav ul.nav-list{
-        margin: 20px;
-        padding: 0;
-    }
-
-    .nav ul li{
-        padding: 0;
-        padding-top: 10px;
-        padding-right: 20px;
-    }
-
-    .nav ul li a{
-        font-size: 10px;
-    }
-
-    .Agimat-section__title{
         margin: 0;
         padding: 0;
-        font-size: 25px;
-        margin-top: 15px;
-    }
-
-    .Agimat-article__paragraph{
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .Agimat-article__list{
-        margin: 5px;
-        padding: 0;
-        padding-left: 12px;
-    }
-
-    .Agimat-article-list__item{
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    
-    .Agimat-article__FX2018,
-    .Agimat-container__FX2018{
-        height: 100%;
-    }
-    .Agimat-FX2018__paragraph,
-    .Agimat-FX2018__title,
-    .Agimat-FXPro__title,
-    .Agimat-container__FXUltra{
-        margin: 0;
-    }
-
-    .Agimat-FX2018__title{
-        margin-top: 10px;
-    }
-    
-    .Agimat-FX2018__image{
-        margin: 0;
-        padding: 0;
-        height: 100%;
-    }
-
-    .Agimat-FX2018-container__paragraph{
-        padding: 0;
-        height: 100%;
-    }
-
-    .Agimat-FXPro-container__title{
-        margin-top:10px ;
-        height: 100%;
-    }
-
-    .Agimat-FXPro__span{
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-bottom: 0px;
-    }
-
-    .Agimat-article__FXUltra{
-        display: block;
-    }
-
-    .Agimat-FXUltra-container__description{
-        width: 100%;
-    }
-
-    .Agimat-FXUltra__list{
-        padding: 0;
-        margin: 0;
-        padding-left: 15px;
-        padding-top: 8px;
-    }
-
-    .Agimat-FXUltra__subtitle{
-        margin-top: 10px;
-        margin-bottom: 15px;
-    }
-
-    .Agimat-FXUltra__image{
-        width: 280px;
-        margin-bottom: 15px;
-    }
-
-    .footer-container{
-        height: 70px;
-    }
-}
-
-@media screen and (max-width:360px){
-
-    body{
-        font-size: 15px;
-    }
-
-    .header{
-        height: 50px;
-    }
-    
-    .menu{
-        max-width: 100%;
-        height: 100%;
-    }
-
-    .nav{
-        display: flex;
-        height: 100%;
-    }
-
-    .nav img{
-        margin: 0;
-        width: 80px;
-        height: 100%;
-        padding-top: 15px;
-        padding-left: 20px;
-    }
-    
-    .nav ul.nav-list{
-        margin: 30px;
-        margin-right: 0;
-        padding: 0;
+        margin-left: 80px;
     }
 
     .nav ul li{
         padding: 0;
         font-size: 10px;
         padding-top: 10px;
-        padding-right: 25px;
-    }
-
-    .Agimat-section__title{
-        margin: 0;
-        padding: 0;
-        font-size: 25px;
-        margin-top: 15px;
-    }
-
-    .Agimat-article__paragraph{
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .Agimat-article__list{
-        margin: 5px;
-        padding: 0;
-        padding-left: 12px;
-    }
-
-    .Agimat-article-list__item{
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    
-    .Agimat-article__FX2018{
-        height: 100%;
-    }
-    .Agimat-FX2018__paragraph,
-    .Agimat-FX2018__title,
-    .Agimat-FXPro__title,
-    .Agimat-container__FXUltra{
-        margin: 0;
-    }
-
-    .Agimat-FX2018__title{
-        margin-top: 10px;
-    }
-
-    .Agimat-FX2018__image{
-        height: 100%;
-        padding-top: 10px;
-    }
-
-    .Agimat-FX2018-container__paragraph{
-        padding: 0;
-        height: 100%;
-        margin-top: 10px;
-    }
-
-    .Agimat-FXPro-container__title{
-        padding: 0;
-        height: 100%;
-        margin-top: ;
-    }
-
-    .Agimat-FXPro__span{
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-bottom: 0px;
-    }
-
-    .Agimat-article__FXUltra{
-        display: block;
-    }
-
-    .Agimat-FXUltra-container__description{
-        width: 100%;
-    }
-
-    .Agimat-FXUltra__list{
-        padding: 0;
-        margin: 0;
-        padding-left: 15px;
-        padding-top: 8px;
-    }
-
-    .Agimat-FXUltra__subtitle{
-        margin-top: 10px;
-        margin-bottom: 15px;
-    }
-
-    .Agimat-FXUltra__image{
-        width: 280px;
-        margin-bottom: 15px;
-    }
-
-    .footer-container{
-        height: 70px;
-    }
-}
-
-@media screen and (max-width:420px){
-    
-    body{
-        font-size: 15px;
-    }
-
-    .header{
-        height: 50px;
-    }
-    
-    .menu{
-        max-width: 100%;
-        height: 100%;
-    }
-
-    .nav{
-        display: flex;
-        height: 100%;
-    }
-
-    .nav img{
-        margin: 0;
-        width: 80px;
-        height: 100%;
-        padding-top: 15px;
-        padding-left: 25px;
-    }
-    
-    .nav ul.nav-list{
-        margin: 0;
-        padding: 0;
-        margin-left: 30px;
-    }
-
-    .nav ul li{
-        padding: 0;
-        font-size: 10px;
-        padding-top: 10px;
-        padding-right: 40px;
-    }
-
-    .Agimat-section__title{
-        margin: 0;
-        padding: 0;
-        font-size: 25px;
-        margin-top: 15px;
-    }
-
-    .Agimat-article__paragraph{
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .Agimat-article__list{
-        margin: 5px;
-        padding: 0;
-        padding-left: 12px;
-    }
-
-    .Agimat-article-list__item{
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    
-    .Agimat-article__FX2018{
-        display: flex;
-        flex-wrap: wrap;
-        height: 100%;
-    }
-    .Agimat-FX2018__paragraph,
-    .Agimat-FX2018__title,
-    .Agimat-FXPro__title,
-    .Agimat-container__FXUltra{
-        margin: 0;
-    }
-
-    .Agimat-FX2018-container__title{
-        height: 100%;
-        margin-bottom: 10px;
-    }
-    .Agimat-FX2018__title{
-        margin-top: 10px;
-    }
-
-    .Agimat-FX2018__image{
-        height: 100%;
-    }
-
-    .Agimat-FX2018-container__paragraph{
-        padding: 0;
-        height: 100%;
-        margin-top: 0;
-    }
-    
-    .Agimat-FX2018__paragraph{
-        margin-top: 15px;
-        height: 100%;
-    }
-
-    .Agimat-FXPro-container__title{
-        padding-top: 10px;
-        height: 100%;
-    }
-    
-    .Agimat-FXPro__title{
-        margin-top: 0;
-    }
-
-    .Agimat-FXPro__span{
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 0px;
-    }
-
-    .Agimat-article__FXUltra{
-        display: block;
-    }
-
-    .Agimat-FXUltra-container__description{
-        width: 100%;
-    }
-
-    .Agimat-FXUltra__list{
-        padding: 0;
-        margin: 0;
-        padding-left: 15px;
-        padding-top: 8px;
-    }
-
-    .Agimat-FXUltra__subtitle{
-        margin-top: 10px;
-        margin-bottom: 15px;
-    }
-
-    .Agimat-FXUltra__image{
-        width: 280px;
-        margin-bottom: 15px;
-    }
-
-    .footer-container{
-        height: 70px;
-    }
-}
-
-@media screen and (max-width:480px){
-    
-    body{
-        font-size: 15px;
-    }
-
-    .header{
-        height: 50px;
-    }
-    
-    .menu{
-        max-width: 100%;
-        height: 100%;
-    }
-
-    .nav{
-        display: flex;
-        height: 100%;
-    }
-
-    .nav img{
-        margin: 0;
-        width: 80px;
-        height: 100%;
-        padding-top: 15px;
-        padding-left: 40px;
-    }
-    
-    .nav ul.nav-list{
-        margin: 0;
-        padding: 0;
-        margin-left: 60px;
-    }
-
-    .nav ul li{
-        padding: 0;
-        font-size: 10px;
-        padding-top: 10px;
-        padding-right: 40px;
+        padding-right: 60px;
     }
 
     .Agimat-section__title{
@@ -722,6 +315,7 @@ img{
     }
 
     .Agimat-FX2018-container__paragraph{
+        width: 100%;
         padding: 0;
         height: 100%;
         margin-top: 15px;
@@ -778,7 +372,7 @@ img{
     }
 
     .Agimat-FXUltra__image{
-        width: 280px;
+        width: 100%;
         margin-bottom: 15px;
     }
 
@@ -942,7 +536,8 @@ img{
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:480px){
+    
     body{
         font-size: 15px;
     }
@@ -965,22 +560,21 @@ img{
         margin: 0;
         width: 80px;
         height: 100%;
-        padding: 0;
         padding-top: 15px;
-        margin-left: 80px;
+        margin-left: 60px;
     }
     
     .nav ul.nav-list{
         margin: 0;
         padding: 0;
-        margin-left: 80px;
+        margin-left: 60px;
     }
 
     .nav ul li{
         padding: 0;
         font-size: 10px;
         padding-top: 10px;
-        padding-right: 60px;
+        padding-right: 40px;
     }
 
     .Agimat-section__title{
@@ -1031,7 +625,6 @@ img{
     }
 
     .Agimat-FX2018-container__paragraph{
-        width: 100%;
         padding: 0;
         height: 100%;
         margin-top: 15px;
@@ -1088,7 +681,7 @@ img{
     }
 
     .Agimat-FXUltra__image{
-        width: 100%;
+        width: 280px;
         margin-bottom: 15px;
     }
 
@@ -1097,8 +690,413 @@ img{
     }
 }
 
+@media screen and (max-width:420px){
+    
+    body{
+        font-size: 15px;
+    }
 
+    .header{
+        height: 50px;
+    }
+    
+    .menu{
+        max-width: 100%;
+        height: 100%;
+    }
 
+    .nav{
+        display: flex;
+        height: 100%;
+    }
+
+    .nav img{
+        margin: 0;
+        width: 80px;
+        height: 100%;
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    
+    .nav ul.nav-list{
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+    }
+
+    .nav ul li{
+        padding: 0;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-right: 40px;
+    }
+
+    .Agimat-section__title{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .Agimat-article__paragraph{
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .Agimat-article__list{
+        margin: 5px;
+        padding: 0;
+        padding-left: 12px;
+    }
+
+    .Agimat-article-list__item{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .Agimat-article__FX2018{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .Agimat-FX2018__paragraph,
+    .Agimat-FX2018__title,
+    .Agimat-FXPro__title,
+    .Agimat-container__FXUltra{
+        margin: 0;
+    }
+
+    .Agimat-FX2018-container__title{
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    .Agimat-FX2018__title{
+        margin-top: 10px;
+    }
+
+    .Agimat-FX2018__image{
+        height: 100%;
+    }
+
+    .Agimat-FX2018-container__paragraph{
+        padding: 0;
+        height: 100%;
+        margin-top: 0;
+    }
+    
+    .Agimat-FX2018__paragraph{
+        margin-top: 15px;
+        height: 100%;
+    }
+
+    .Agimat-FXPro-container__title{
+        padding-top: 10px;
+        height: 100%;
+    }
+    
+    .Agimat-FXPro__title{
+        margin-top: 0;
+    }
+
+    .Agimat-FXPro__span{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0px;
+    }
+
+    .Agimat-article__FXUltra{
+        display: block;
+    }
+
+    .Agimat-FXUltra-container__description{
+        width: 100%;
+    }
+
+    .Agimat-FXUltra__list{
+        padding: 0;
+        margin: 0;
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+
+    .Agimat-FXUltra__subtitle{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .Agimat-FXUltra__image{
+        width: 280px;
+        margin-bottom: 15px;
+    }
+
+    .footer-container{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width:360px){
+
+    body{
+        font-size: 15px;
+    }
+
+    .header{
+        height: 50px;
+    }
+    
+    .menu{
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .nav{
+        display: flex;
+        height: 100%;
+    }
+
+    .nav img{
+        margin: 0;
+        width: 80px;
+        height: 100%;
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+    
+    .nav ul.nav-list{
+        margin: 30px;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .nav ul li{
+        padding: 0;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-right: 25px;
+    }
+
+    .Agimat-section__title{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .Agimat-article__paragraph{
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .Agimat-article__list{
+        margin: 5px;
+        padding: 0;
+        padding-left: 12px;
+    }
+
+    .Agimat-article-list__item{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .Agimat-article__FX2018{
+        height: 100%;
+    }
+    .Agimat-FX2018__paragraph,
+    .Agimat-FX2018__title,
+    .Agimat-FXPro__title,
+    .Agimat-container__FXUltra{
+        margin: 0;
+    }
+
+    .Agimat-FX2018__title{
+        margin-top: 10px;
+    }
+
+    .Agimat-FX2018__image{
+        height: 100%;
+        padding-top: 10px;
+    }
+
+    .Agimat-FX2018-container__paragraph{
+        padding: 0;
+        height: 100%;
+        margin-top: 10px;
+    }
+
+    .Agimat-FXPro-container__title{
+        padding: 0;
+        height: 100%;
+        margin-top: 10px;
+    }
+
+    .Agimat-FXPro__span{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 0px;
+    }
+
+    .Agimat-article__FXUltra{
+        display: block;
+    }
+
+    .Agimat-FXUltra-container__description{
+        width: 100%;
+    }
+
+    .Agimat-FXUltra__list{
+        padding: 0;
+        margin: 0;
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+
+    .Agimat-FXUltra__subtitle{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .Agimat-FXUltra__image{
+        width: 280px;
+        margin-bottom: 15px;
+    }
+
+    .footer-container{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width:320px){
+
+    body{
+        font-size: 15px;
+    }
+
+    .header{
+        height: 50px;
+    }
+    
+    .menu{
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .nav{
+        display: flex;
+        height: 100%;
+    }
+
+    .nav img{
+        margin: 0;
+        width: 80px;
+        height: 100%;
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+    
+    .nav ul.nav-list{
+        margin: 20px;
+        padding: 0;
+    }
+
+    .nav ul li{
+        padding: 0;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+
+    .nav ul li a{
+        font-size: 10px;
+    }
+
+    .Agimat-section__title{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .Agimat-article__paragraph{
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .Agimat-article__list{
+        margin: 5px;
+        padding: 0;
+        padding-left: 12px;
+    }
+
+    .Agimat-article-list__item{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .Agimat-article__FX2018,
+    .Agimat-container__FX2018{
+        height: 100%;
+    }
+    .Agimat-FX2018__paragraph,
+    .Agimat-FX2018__title,
+    .Agimat-FXPro__title,
+    .Agimat-container__FXUltra{
+        margin: 0;
+    }
+
+    .Agimat-FX2018__title{
+        margin-top: 10px;
+    }
+    
+    .Agimat-FX2018__image{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .Agimat-FX2018-container__paragraph{
+        padding: 0;
+        height: 100%;
+    }
+
+    .Agimat-FXPro-container__title{
+        margin-top:10px ;
+        height: 100%;
+    }
+
+    .Agimat-FXPro__span{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 0px;
+    }
+
+    .Agimat-article__FXUltra{
+        display: block;
+    }
+
+    .Agimat-FXUltra-container__description{
+        width: 100%;
+    }
+
+    .Agimat-FXUltra__list{
+        padding: 0;
+        margin: 0;
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+
+    .Agimat-FXUltra__subtitle{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .Agimat-FXUltra__image{
+        width: 280px;
+        margin-bottom: 15px;
+    }
+
+    .footer-container{
+        height: 70px;
+    }
+}
 
 
 
